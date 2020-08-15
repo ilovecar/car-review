@@ -1,4 +1,4 @@
-# Memoirs Jekyll Theme
+# ilovecar blog
 
 
-![memoirs](https://ilovecar.github.io/logo.jepg)
+![ilovecar logo](https://ilovecar.github.io/logo.jepg)

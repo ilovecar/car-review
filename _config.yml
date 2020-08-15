@@ -1,16 +1,16 @@
 # Site
-name: "Memoirs"
-title: "Memoirs"
-description: "酷的汽车旅行!"
-logo: 'assets/images/logo.png'
+name: "我爱车评人"
+title: "我爱车评人"
+description: "酷酷的汽车旅行!"
+logo: 'assets/images/logo1.png'
 favicon: 'assets/images/logo.png'
 baseurl: /car-review
 google_analytics: 'UA-xxxxxxxx-1'
-disqus: 'demowebsite'
+disqus: 'ilovecar'
 mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
 include: ["_pages"]
 permalink: /:title/
-email: wowthemesnet@gmail.com
+email: momo@qq.com
 
 # Authors
 authors:
@@ -80,7 +80,6 @@ markdown: kramdown
 kramdown:
    syntax_highlighter_opts:
       disable : true
-
 
 
 # Adsense (change to "enabled" to activate, also your client id and ad slot. Create a new ad unit from your Adsense account to get the slot.)
