@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "我在巴黎Paris"
+title:  "我在巴黎"
 author: john
-categories: [ Lifestyle ]
+categories: [ Lifestyle , 旅行]
 tags: [ France ]
 image: assets/images/2.jpg
 rating: 4.5

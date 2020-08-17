@@ -1,0 +1,22 @@
+    {% if page.url == '/' %}
+
+
+        <p class="sitetag">
+          <a class="navbar-brand" href="{{ site.baseurl }}/"><img src="{{ site.baseurl }}/{{ site.logo }}" alt="{{ site.name }}"></a>
+	  {{ site.description }}
+        </p>
+<p>
+	CATEGORIES
+	{% for category in site.categories %}
+	<a href="{{ site.baseurl }}/categories#{{category[0]}}"><span class="badge badge-primary"> {{ category[0] }}</span> </a>
+	{% endfor %}
+	</p>
+
+    <p>TAGS
+	{% for tag in site.tags %}
+	<a href="{{ site.baseurl }}/tags#{{tag[0]}}"><span class="badge badge-primary"> {{ tag[0] }}</span></a>
+
+       {% endfor %}
+	  </p>
+
+    {% endif %}

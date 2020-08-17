@@ -3,6 +3,10 @@ title: "Tags"
 layout: default
 permalink: "/tags.html"
 ---
+<p class="sitetag">
+<a class="navbar-brand" href="{{ site.baseurl }}/"><img src="{{ site.baseurl }}/{{ site.logo }}" alt="{{ site.name }}"></a>
+	  {{ site.description }}
+</p>
 
 {% for tag in site.tags %}
 <h4 class="mt-5 mb-neg-30" id="{{ tag[0] | replace: " ","-" }}"><span class="text-capitalize text-small badge badge-primary">{{ tag[0] }}</span></h4>

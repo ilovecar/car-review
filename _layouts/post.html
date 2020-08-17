@@ -8,7 +8,20 @@ post_class: post-template
 <div class="entry-header">
     <!-- Post Title -->
     <h1 class="posttitle">    <a class="navbar-brand" href="{{ site.baseurl }}/"><img src="{{ site.baseurl }}/{{ site.logo }}" alt="{{ site.name }}"></a>
-{{ page.title }}</h1>
+      {{ page.title }}</h1>
+    <p>
+      CATEGORIES
+      {% for category in page.categories %}
+      <a class="smoothscroll badge badge-primary text-capitalize" href="{{site.baseurl}}/categories#{{ category | replace: " ","-" }}">{{ category }}</a>       
+      {% endfor %}
+    </p>
+    <p>
+      TAGS
+    {% for tag in page.tags %}                
+    <a class="smoothscroll badge badge-primary text-capitalize" href="{{site.baseurl}}/tags#{{ tag | replace: " ","-" }}">{{ tag }}</a>               
+    {% endfor %}
+    
+    </p>
     <!-- Author & Date  Box -->
     {% assign author = site.authors[page.author] %}
     {% if page.author %}
